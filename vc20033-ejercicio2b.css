@@ -1,0 +1,104 @@
+/* vc20033-ejercicio2b.css VC20033 */
+
+/* Estilos generales del documento */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Estilo para el elemento pais */
+pais {
+  background-color: #f7dc6f;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #e67e22;
+  display: block;
+}
+
+/* Estilo para el elemento departamento */
+departamento {
+  background-color: #ffffff;
+  border: 2px solid #3498db;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+/* Estilos para atributos */
+pais[nombre] {
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+departamento[id] {
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+/* Estilos para elementos dentro de departamento */
+nombre, cabecera, habitantes, altura {
+  font-weight: bold;
+  color: #27ae60;
+}
+
+areatotal, tipogeografia, cultivos, codigodearea, numMunicipios {
+  color: #3498db;
+}
+
+/* Estilo para unidades de medida */
+areatotal[unidadMedida="km"]::after {
+  content: " km²";
+}
+
+/* Estilo para los valores numéricos */
+habitantes::before,
+altura::before,
+numMunicipios::before {
+  content: "⚬ ";
+}
+
+/* Estilo para los títulos */
+nombre::before,
+cabecera::before {
+  content: "➤ ";
+}
+
+/* Estilo para los nombres de atributos */
+pais::before,
+departamento::before {
+  content: "▶ ";
+  font-weight: bold;
+}
+
+/* Estilo para los valores de atributos */
+pais[nombre]::after,
+departamento[id]::after {
+  content: ": ";
+  font-weight: normal;
+}
+
+/* Estilo para las listas de cultivos */
+cultivos {
+  display: block;
+  margin-top: 5px;
+  color: #9b59b6;
+}
+
+/* Estilo para cada cultivo en la lista */
+cultivos::before {
+  content: "• ";
+}
+
+/* Cambio de color para valores específicos */
+cultivos::contains("tabaco") {
+  color: #e74c3c;
+}
+
+/* Estilo para el número de municipios */
+numMunicipios::before {
+  content: "⛏️ ";
+}
+

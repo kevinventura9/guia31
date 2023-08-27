@@ -1,0 +1,32 @@
+/* vc20033-ejercicio2a.css VC20033 */
+
+/* Estilos generales del documento */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Estilo para el elemento pais */
+pais {
+  display: block;
+  background-color: #ecf0f1;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #3498db;
+}
+
+/* Estilo para el elemento departamento */
+departamento {
+  display: block;
+  background-color: #ffffff;
+  border: 2px solid #3498db;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para atributos */
+pais[nombre] {
+  font-weight: bold;
+  color: #e74

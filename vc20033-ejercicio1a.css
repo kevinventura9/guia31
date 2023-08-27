@@ -1,0 +1,56 @@
+/* vc20033-ejercicio1a.css   VC20033  */
+/* Agregar un salto de línea después de cada etiqueta */
+fichero:after, ficha:after, nombre:after, apellido:after, direccion:after, telefono:after, email:after, sitioweb:after {
+  content: "\A";
+  white-space: pre;
+}
+/* Agregar sombra y animación a la etiqueta fichero */
+fichero {
+  font-size: 18px;
+  color: black;
+  box-shadow: 5px 5px 5px grey;
+  animation: example 5s;
+}
+
+/* Estilo para la etiqueta ficha */
+ficha {
+  font-size: 16px;
+  color: blue;
+}
+
+/* Estilo para la etiqueta nombre dentro de ficha */
+ficha nombre {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Estilo para la etiqueta apellido dentro de ficha */
+ficha apellido {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Estilo para la etiqueta direccion dentro de ficha */
+ficha direccion {
+  font-size: 14px;
+}
+
+/* Estilo para la etiqueta telefono dentro de ficha */
+ficha telefono {
+  font-size: 14px;
+}
+
+/* Estilo para la etiqueta email dentro de ficha */
+ficha email {
+  font-size: 14px;
+}
+
+/* Estilo para la etiqueta sitioweb dentro de ficha */
+ficha sitioweb {
+  font-size: 14px;
+}
+
+@keyframes example {
+    from {background-color: blue;}
+    to {background-color: white;}
+}

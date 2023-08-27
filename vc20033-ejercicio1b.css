@@ -1,0 +1,35 @@
+/* vc20033-ejercicio1b.css   VC20033  */
+
+fichero {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: lightblue;
+}
+
+
+nombre, apellido, direccion, telefono, email, sitioweb, dui, isss, afp {
+  display: block;
+}
+
+nombre {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+apellido {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+direccion {
+  font-style: italic;
+}
+
+telefono, email, sitioweb {
+  color: blue;
+}
+
+dui, isss, afp {
+  color: red;
+}
+
