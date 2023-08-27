@@ -1,0 +1,30 @@
+{
+	"pais":{
+		"@nombre":"El Salvador",
+		"departamento":[
+			{
+				"@id":"1",
+				"nombre":"San Salvador",
+				"cabecera":"San Salvador",
+				"habitantes":"1,700,000",
+				"altura":"545 MSNM",
+				"numMunicipios":"19"
+			},
+			{
+				"@id":"2",
+				"nombre":"Cuscatlan",
+				"cabecera":"Cojutepeque",
+				"habitantes":"216,446",
+				"altura":"678 MSNM",
+				"areatotal":{
+					"@unidadMedida":"km",
+					"#text":"756.2"
+				},
+				"tipogeografia":"Montañosa",
+				"cultivos":"caña de azucar, tabaco y cafe",
+				"codigodearea":"CP1401",
+				"numMunicipios":"16"
+			}
+		]
+	}
+}

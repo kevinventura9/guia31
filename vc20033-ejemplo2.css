@@ -1,0 +1,35 @@
+/* vc20033-ejemplo2.css   VC20033  */
+/* Agregar un salto de línea después de cada etiqueta */
+pais:after, departamento:after, cabecera:after, habitantes:after, altura:after {
+  content: "\A";
+  white-space: pre;
+}
+/* Estilo para la etiqueta pais */
+pais {
+  font-size: 24px;
+  font-weight: bold;
+  color: blue;
+}
+
+/* Estilo para la etiqueta departamento */
+departamento {
+  font-size: 18px;
+  color: green;
+}
+
+/* Estilo para la etiqueta cabecera dentro de departamento */
+departamento cabecera {
+  font-size: 32px;
+  font-weight: bold;
+  color: red;
+}
+
+/* Estilo para la etiqueta habitantes dentro de departamento */
+departamento habitantes {
+  font-size: 16px;
+}
+
+/* Estilo para la etiqueta altura dentro de departamento */
+departamento altura {
+  font-size: 16px;
+}

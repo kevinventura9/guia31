@@ -1,0 +1,40 @@
+{
+	"fichero":{"ficha":[
+			{
+				"@id":"1",
+				"@fechaingreso":"1/11/2012",
+				"nombre":"Antonio",
+				"apellido":"Barbero",
+				"direccion":"Calle de Los Andes, 45"
+			},
+			{
+				"@id":"2",
+				"@fechaingreso":"26/08/2023",
+				"nombre":"Kevin",
+				"apellido":"Ventura",
+				"direccion":"Cojutepeque, Cuscatllan, 11",
+				"telefono":"77777777",
+				"email":"vc20033@ues.edu.sv",
+				"sitioweb":"kevinventura.tpi.com"
+			},
+			{
+				"@id":"3",
+				"@fechaingreso":"26/08/2023",
+				"nombre":"Pablo",
+				"apellido":"Rosales",
+				"direccion":"Candelaria, Cuscatllan, 21",
+				"telefono":"77898777",
+				"email":"vpablo.1@gmail.com",
+				"sitioweb":"pablo.lab.tpi",
+				"dui":{
+					"@caracteres":" 10",
+					"#text":"05468957-8"
+				},
+				"isss":"989646787",
+				"afp":{
+					"@tipo":"confia",
+					"#text":"789667489"
+				}
+			}
+		]}
+}

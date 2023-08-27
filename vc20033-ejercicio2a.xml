@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="vc20033-ejercicio2a.css"?>
+<!-- ejemplo2.xml  VC20033 -->
+<pais nombre="El Salvador">
+  <departamento id="1" nombre="San Salvador">
+  <cabecera>San Salvador</cabecera>
+  <habitantes>1,700,000</habitantes>
+  <altura>545 MSNM</altura>
+  </departamento>
+    <departamento id="2" nombre="Cuscatlan">
+  <cabecera>Cojutepeque</cabecera>
+  <habitantes>216,446</habitantes>
+  <altura>678 MSNM</altura>
+  <areatotal unidadMedida="km">756.2</areatotal>
+  <tipogeografia>Montañosa</tipogeografia>
+  <cultivos>caña de azucar, tabaco y cafe</cultivos>
+  <codigodearea>CP1401</codigodearea>
+  </departamento>
+</pais>
